@@ -15,7 +15,7 @@ import tensorflow as tf
 
 # if we don't specify the shape, then tf.constant will use the dimensions of the value that we pass in to create the constant.
 
-x = tf.constant(10.0, shape=[2, 3, 4], dtype="float32",name="constant_float_tensor")
+x = tf.constant(5.0, shape=[2, 3, 4], dtype="float32",name="constant_float_tensor")
 
 print(x)
 
