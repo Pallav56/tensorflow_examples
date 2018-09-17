@@ -11,6 +11,9 @@ import tensorflow as tf
 #     verify_shape=False
 # )
 
+# Constant maintain state across executions of the graph
+
+
 # For this example, we'll create a TensorFlow constant tensor with dimensions 2, 3, 4, which is populated with a scalar value 5.0, and a data type of float32.
 
 # if we don't specify the shape, then tf.constant will use the dimensions of the value that we pass in to create the constant.
